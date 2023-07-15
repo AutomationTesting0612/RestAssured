@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c53605-4096-433f-bb4d-a7e201f06137" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/assured/getAPI/RestAssured.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/assured/util/Utlility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/RestAssuredFramework.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/assured/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/assured/stepDef/LoginStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/ForgotPassword.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/Registeration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +41,39 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/pc/Documents/repos/RestAssureDProject/notes",
     "onboarding.tips.debug.path": "C:/Users/pc/Documents/repos/RestAssureDProject/src/main/java/org/spring/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RestAssured">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Documents\repos\RestAssureDProject\notes" />
+      <recent name="C:\Users\pc\Documents\repos\RestAssureDProject\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: RestAssured1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/RestAssured1.feature" />
+      <option name="GLUE" value="com.rest.assured.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="RestAssureDProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: RestAssured1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestAssured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssureDProject" />
       <option name="PACKAGE_NAME" value="com.rest.assured.getAPI" />
@@ -85,8 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssureDProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.assured.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest.assured.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.assured.runner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: RestAssured1" />
         <item itemvalue="JUnit.RestAssured" />
         <item itemvalue="JUnit.RestAssured.getApi" />
         <item itemvalue="JUnit.RestAssured.readApplicationPropertyData" />
@@ -111,6 +152,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/spring/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/rest/assured/stepDef/LoginStepDef.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
